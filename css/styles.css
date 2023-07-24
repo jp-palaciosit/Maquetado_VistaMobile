@@ -1,14 +1,7 @@
-/* En este archivo escriban su CSS */
-
-/* Fonts */
-/* Importar aquí la font */
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lato:wght@400;700&family=Permanent+Marker&display=swap');
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
-
 /* Reset */
 * {
     box-sizing: border-box;
@@ -28,6 +21,11 @@ a {
     color: inherit;
 }
 
+#soyYo {
+    font-family: 'Braah One', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
 header{
     background-color: #fbfbfb;
     width: 100%;
